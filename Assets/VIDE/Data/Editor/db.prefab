@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499132}
+  - component: {fileID: 11416270}
+  m_Layer: 0
+  m_Name: db
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499132
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11416270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileIndex: 9
+  skinIndex: 0
+  loadTag: 
+  startID: 0
+  curFocusID: 0
+  currentID: 42114
+  autosave: 1
+  previewPanning: 0
+  currentDiag: 9
+  locEdit: 0
+  pNodeID: 18
+  aNodeID: 2
+  S_playerDiags:
+  - commentCount: 1
+    s_comment:
+    - text: "Eres Lazort, un j\xF3ven perteniciente a una peque\xF1a aldea de tu
+        mundo, conocido popularmente como \"Spikend\xE1g\". "
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: 1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    rect:
+      serializedVersion: 2
+      x: -170
+      y: -120
+      width: 348
+      height: 169
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Tienes un poco m\xE1s de 18 a\xF1os y eres rechazado por las personas
+        de tu aldea, puesto que hace poco uno de tus amigos desapareci\xF3 sin dejar
+        rastro y se te culpa a ti de no haberlo ayudado."
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 93
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: -150
+      width: 348
+      height: 199
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Tu padre ha muerto hace poco en una cacer\xEDa y tu madre te abandon\xF3
+        de peque\xF1o. Solo hay una persona que a\xFAn te apoya: tu amigo Vorgru. "
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 3
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 78
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    rect:
+      serializedVersion: 2
+      x: 700
+      y: -210
+      width: 348
+      height: 184
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Te despiertas una ma\xF1ana lleno de tristeza, esta te ha invadido desde
+        que tu padre es solo un recuerdo en tu hogar. Sin mucha motivaci\xF3n recoges
+        tus cosas y sales a la aldea, donde has acordado de encontrarte con Vorgru
+        para un plan que tiene en mente. Antes de salir debes tomar lo que consideres
+        m\xE1s importante."
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 4
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 153
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
+    rect:
+      serializedVersion: 2
+      x: 1110
+      y: -150
+      width: 348
+      height: 259
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Tomar tu espada
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: 5
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Tomar tu arco
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: 6
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 87
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: No tomar nada
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: 7
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 111
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 4
+    rect:
+      serializedVersion: 2
+      x: 230
+      y: 140
+      width: 348
+      height: 177
+    pTag: "T\xFA"
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Tomas tu espada, te la regal\xF3 tu padre cuando cumpliste 18 a\xF1os.
+        Sales de la casa y te diriges al lugar acordado con Vorgru."
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: 8
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 5
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 150
+      width: 348
+      height: 169
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Recoges tu arco de nombre Whee. Lo tienes desde peque\xF1o cuando se
+        lo compraste a un mercader ambulante en determinaci\xF3n por ser un cazador
+        como tu padre.  Sales de la casa y te diriges al lugar acordado con Vorgru."
+      extraData: ExtraData
+      inputSetIndex: 6
+      outputNodeIndex: 8
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 108
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 6
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 320
+      width: 348
+      height: 214
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Consideras que ser\xE1 un viaje de ida y vuelta, nada importante que
+        amerite llevar un arma, adem\xE1s, no tienes el suficiente \xE1nimo para
+        verte envuelto en una aventura, de haberla.  Sales de la casa y te diriges
+        al lugar acordado con Vorgru."
+      extraData: ExtraData
+      inputSetIndex: 7
+      outputNodeIndex: 8
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 123
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 7
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 540
+      width: 348
+      height: 229
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Caminas por el centro de la aldea, son las 7:00 de la ma\xF1ana, pero
+        a\xFAn no puedes ver el sol en su totalidad, por lo que la niebla est\xE1
+        cobijando todo el lugar. Observas las tiendas, las tabernas, las casas de
+        madera y piedra."
+      extraData: ExtraData
+      inputSetIndex: 8
+      outputNodeIndex: 9
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 108
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 8
+    rect:
+      serializedVersion: 2
+      x: 1150
+      y: 230
+      width: 348
+      height: 214
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: " Sigues caminando hasta que un peque\xF1o gato se cruza en tu camino
+        y te disppones a acariciarlo, pero cuando hab\xEDas extendido tu brazo este
+        la evadi\xF3 y como si de un tigre en persecusi\xF3n de su presa se tratara
+        escap\xF3 de ti. "
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: 10
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 123
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 9
+    rect:
+      serializedVersion: 2
+      x: 1540
+      y: 190
+      width: 348
+      height: 229
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Te resignas al hecho irrefutable y continuas caminando. En el \xFAltimo
+        tramo del camino observas las casas de tus antiguos amigos y recuerdas con
+        nostalgia c\xF3mo sol\xEDan divertirse juntos. Ahora solo Vorgru conf\xEDa
+        en ti, pero sabes que no necesitas m\xE1s."
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 10
+    rect:
+      serializedVersion: 2
+      x: 1500
+      y: 560
+      width: 348
+      height: 229
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: 
+      extraData: ExtraData
+      inputSetIndex: 11
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 11
+    rect:
+      serializedVersion: 2
+      x: 1570
+      y: 450
+      width: 348
+      height: 129
+    pTag: Narrador
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  S_actionNodes: []
+  S_selNodes: []
